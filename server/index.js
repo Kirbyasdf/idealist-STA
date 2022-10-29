@@ -1,25 +1,41 @@
 const express = require("express");
 const fs = require("fs");
 const app = express();
+app.use(express.json());
 
 app.get("/", (req, res) => {
   const { listing } = req.query;
-
   const entry = cleanData(listing);
-
-  console.log(entry);
-
   try {
-    // fs.readFile("listings.json", "utf8", function readFileCallback(err, data) {
-    //   if (err) {
-    //     console.log(err);
-    //   } else {
-    //     obj = JSON.parse(data); //now it an object
-    //     obj.push(entry); //add some data
-    //     json = JSON.stringify(obj); //convert it back to json
-    //     fs.writeFile("myjsonfile.json", json, "utf8", callback); // write it back
-    //   }
-    // });
+    fs.readFile("listings.json", "utf-8", (err, listingsJSON) => {
+      if (err) {
+        console.error(err);
+      } else {
+        allListings = JSON.parse(listingsJSON);
+        //check to make sure data doesn't already exist
+        const findExist = allListings.find(
+          (listing) => listing.link === entry.link
+        );
+        if (findExist) {
+          console.log("entry already in DB");
+          return;
+        } else {
+          //write to DB
+          allListings.push(entry);
+          const newList = JSON.stringify(allListings, null, 2);
+          console.log("current length of DB: ", allListings.length);
+          fs.writeFile("listings.json", newList, (err) => {
+            if (err) {
+              console.error(err);
+            } else {
+              console.log("new entry added");
+            }
+          });
+        }
+      }
+    });
+
+    res.send("ok");
   } catch (e) {
     console.error(e);
   }
@@ -27,25 +43,31 @@ app.get("/", (req, res) => {
 });
 
 const cleanData = (data) => {
-  const parsedListing = JSON.parse(data);
+  let parsedListing;
+  try {
+    parsedListing = JSON.parse(data);
+  } catch (e) {
+    console.log("broken data", data);
+    console.error(e);
+  }
+  //clean geotag
   let cleanGeo = parsedListing.geotag;
   cleanGeo = cleanGeo.replace(/[_]/g, ",");
   cleanGeo = cleanGeo.split("");
   cleanGeo.splice(0, 1);
   parsedListing.geotag = cleanGeo.join("");
+  //clean size
   parsedListing.size = parsedListing.size.replace(/\s|null/g, "");
+  //clean price
   parsedListing.price = +parsedListing.price.replace(/\s|€|,/g, "");
-  // parsedListing.price = parseInt(parsedListing.price);
+  //clean phone
   let cleanPhone = parsedListing.phone;
-  console.log(cleanPhone);
   cleanPhone = cleanPhone.split("");
   cleanPhone.unshift("+33");
-  console.log("after split", cleanPhone);
   cleanPhone = cleanPhone.join("");
-  console.log("after join", cleanPhone);
   parsedListing.phone = cleanPhone.replace(/\s/g, "");
 
   return parsedListing;
 };
 
-app.listen(3000);
+app.listen(3000, () => console.log("SERVER RUNNING"));

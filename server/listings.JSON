@@ -1,1 +1,112 @@
-"{\"geotag\":\"m40.4271272_-3.6995506\",\"price\":\"5,250 €\",\"size\":\"null 220 m² null  \",\"link\":\"https://www.idealista.com/en/inmueble/98732951/\",\"title\":\"Commercial premises  in BARCELO, 13, Chueca-Justicia, Madrid\",\"phone\":\"919 386 579\"}"
+[
+  {
+    "geotag": "40.434672,-3.7013226",
+    "price": 5000,
+    "size": "200m²",
+    "link": "https://www.idealista.com/en/inmueble/96459924/",
+    "title": "Commercial premises  in calle Eloy Gonzalo, Trafalgar, Madrid",
+    "agency": "InmoRest Consultores S.L.",
+    "phone": "+33919384580"
+  },
+  {
+    "geotag": "40.4292435,-3.7087971",
+    "price": 6900,
+    "size": "314m²",
+    "link": "https://www.idealista.com/en/inmueble/97725742/",
+    "title": "Commercial premises  in calle de Alberto Aguilera, Malasaña-Universidad, Madrid",
+    "agency": "Retail Real Estate Services",
+    "phone": "+33911743641"
+  },
+  {
+    "geotag": "40.4286911,-3.7016119",
+    "price": 5000,
+    "size": "250m²",
+    "link": "https://www.idealista.com/en/inmueble/97555507/",
+    "title": "Commercial premises  in calle de Sagasta, 4, Chueca-Justicia, Madrid",
+    "phone": "+33919385025"
+  },
+  {
+    "geotag": "40.4323302,-3.7025636",
+    "price": 7700,
+    "size": "330m²",
+    "link": "https://www.idealista.com/en/inmueble/99355231/",
+    "title": "Commercial premises  in Trafalgar, Madrid",
+    "phone": "+33919384100"
+  },
+  {
+    "geotag": "40.4309568,-3.7077561",
+    "price": 7000,
+    "size": "359m²",
+    "link": "https://www.idealista.com/en/inmueble/96445257/",
+    "title": "Commercial premises  in Malasaña-Universidad, Madrid",
+    "phone": "+33919389911"
+  },
+  {
+    "geotag": "40.42843,-3.6983401",
+    "price": 5500,
+    "size": "223m²",
+    "link": "https://www.idealista.com/en/inmueble/99354858/",
+    "title": "Commercial premises  in calle de Barceló, Chueca-Justicia, Madrid",
+    "phone": "+33919387081"
+  },
+  {
+    "geotag": "40.427919,-3.7008378",
+    "price": 6000,
+    "size": "223m²",
+    "link": "https://www.idealista.com/en/inmueble/99173877/",
+    "title": "Commercial premises  in calle de Barceló, Chueca-Justicia, Madrid",
+    "phone": "+33919384245"
+  },
+  {
+    "geotag": "40.4333696,-3.6929168",
+    "price": 4500,
+    "size": "275m²",
+    "link": "https://www.idealista.com/en/inmueble/97422370/",
+    "title": "Commercial premises  in Almagro, Madrid",
+    "phone": "+33919380564"
+  },
+  {
+    "geotag": "40.4290833,-3.7042678",
+    "price": 4000,
+    "size": "215m²",
+    "link": "https://www.idealista.com/en/inmueble/85320558/",
+    "title": "Commercial premises  in calle de Carranza, 17, Malasaña-Universidad, Madrid",
+    "phone": "+33915345327"
+  },
+  {
+    "geotag": "40.4247479,-3.6937409",
+    "price": 7000,
+    "size": "261m²",
+    "link": "https://www.idealista.com/en/inmueble/88506643/",
+    "title": "Commercial premises  in calle del Barquillo, Chueca-Justicia, Madrid",
+    "agency": "GV | Real Estate",
+    "phone": "+33917365385"
+  },
+  {
+    "geotag": "40.4216445,-3.69873",
+    "price": 4000,
+    "size": "200m²",
+    "link": "https://www.idealista.com/en/inmueble/97426800/",
+    "title": "Commercial premises  in calle de Hortaleza, Chueca-Justicia, Madrid",
+    "agency": "GRUPO EXPANSIÓN INMOBILIARIA",
+    "phone": "+33919380269"
+  },
+  {
+    "geotag": "40.4240866,-3.695181",
+    "price": 6500,
+    "size": "360m²",
+    "link": "https://www.idealista.com/en/inmueble/96063611/",
+    "title": "Commercial premises  in Chueca-Justicia, Madrid",
+    "agency": "Diplomatic",
+    "phone": "+33919387081"
+  },
+  {
+    "geotag": "40.4231132,-3.696528",
+    "price": 4500,
+    "size": "290m²",
+    "link": "https://www.idealista.com/en/inmueble/82343681/",
+    "title": "Commercial premises  in Chueca-Justicia, Madrid",
+    "agency": "Exclusive World Home by Inmomar Gestión e Inversiones. Intermediación S.L.",
+    "phone": "+33919384504"
+  }
+]
