@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
   const { listing } = req.query;
   const entry = cleanData(listing);
   try {
-    fs.readFile("listings.json", "utf-8", (err, listingsJSON) => {
+    fs.readFile("listings-V2.JSON", "utf-8", (err, listingsJSON) => {
       if (err) {
         console.error(err);
       } else {
@@ -29,7 +29,7 @@ app.get("/", (req, res) => {
           allListings.push(entry);
           const newList = JSON.stringify(allListings, null, 2);
           console.log("current length of DB: ", allListings.length);
-          fs.writeFile("listings.json", newList, (err) => {
+          fs.writeFile("listings-V2.JSON", newList, (err) => {
             if (err) {
               console.error(err);
             } else {
@@ -52,8 +52,11 @@ const cleanData = (data) => {
   try {
     parsedListing = JSON.parse(data);
   } catch (e) {
-    console.log("broken data", data);
+    console.log("\n\n");
+    console.error("broken data", data);
+    console.log("\n\n");
     console.error(e);
+    console.log("\n\n");
   }
   //clean geotag
   let cleanGeo = parsedListing.geotag;
