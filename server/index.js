@@ -1,7 +1,9 @@
 const express = require("express");
+const cors = require("cors");
 const fs = require("fs");
 const app = express();
 app.use(express.json());
+app.use(cors());
 
 app.get("/", (req, res) => {
   const { listing } = req.query;
@@ -17,7 +19,10 @@ app.get("/", (req, res) => {
           (listing) => listing.link === entry.link
         );
         if (findExist) {
-          console.log("entry already in DB");
+          console.log(
+            "entry already in DB, current DB count: ",
+            allListings.length
+          );
           return;
         } else {
           //write to DB
@@ -35,11 +40,11 @@ app.get("/", (req, res) => {
       }
     });
 
-    res.send("ok");
+    return res.status(200).send("ok");
   } catch (e) {
     console.error(e);
   }
-  res.send();
+  return res.status(200).send();
 });
 
 const cleanData = (data) => {
