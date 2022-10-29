@@ -853,5 +853,365 @@
     "title": "Commercial premises  in calle de Alberto Aguilera, Gaztambide, Madrid",
     "agency": "",
     "phone": "+33919386144"
+  },
+  {
+    "geotag": "40.4215163,-3.6749471",
+    "price": 7000,
+    "size": "354m²",
+    "link": "https://www.idealista.com/en/inmueble/98970855/",
+    "title": "Commercial premises  in Goya, Madrid",
+    "agency": "World Gestión Inmobiliaria",
+    "phone": "+33919388679"
+  },
+  {
+    "geotag": "40.4240965,-3.6761786",
+    "price": 7200,
+    "size": "300m²",
+    "link": "https://www.idealista.com/en/inmueble/36524096/",
+    "title": "Commercial premises  in Goya, Madrid",
+    "agency": "Greenliving",
+    "phone": "+33919388602"
+  },
+  {
+    "geotag": "40.4230766,-3.6779606",
+    "price": 7500,
+    "size": "210m²",
+    "link": "https://www.idealista.com/en/inmueble/99355411/",
+    "title": "Commercial premises  in Goya, Madrid",
+    "agency": "",
+    "phone": "+33919384100"
+  },
+  {
+    "geotag": "40.4184023,-3.6763991",
+    "price": 2400,
+    "size": "200m²",
+    "link": "https://www.idealista.com/en/inmueble/99274005/",
+    "title": "Commercial premises  in Ibiza, Madrid",
+    "agency": "Area Casa",
+    "phone": "+33932070270"
+  },
+  {
+    "geotag": "40.4227603,-3.6700956",
+    "price": 3810,
+    "size": "272m²",
+    "link": "https://www.idealista.com/en/inmueble/96000911/",
+    "title": "Commercial premises  in calle Doctor Esquerdo, Fuente del Berro, Madrid",
+    "agency": "GV | Real Estate",
+    "phone": "+33917365385"
+  },
+  {
+    "geotag": "40.4238619,-3.6939302",
+    "price": 4500,
+    "size": "297m²",
+    "link": "https://www.idealista.com/en/inmueble/95633459/",
+    "title": "Commercial premises  in calle de Fernando VI, Chueca-Justicia, Madrid",
+    "agency": "Redfrin",
+    "phone": "+33615124626"
+  },
+  {
+    "geotag": "40.4235034,-3.6931438",
+    "price": 4400,
+    "size": "297m²",
+    "link": "https://www.idealista.com/en/inmueble/98452458/",
+    "title": "Commercial premises  in calle de Fernando VI, Chueca-Justicia, Madrid",
+    "agency": "GRUPO EXPANSIÓN INMOBILIARIA",
+    "phone": "+33919380269"
+  },
+  {
+    "geotag": "40.423748,-3.6974957",
+    "price": 3950,
+    "size": "200m²",
+    "link": "https://www.idealista.com/en/inmueble/96831697/",
+    "title": "Commercial premises  in calle de Hortaleza, Chueca-Justicia, Madrid",
+    "agency": "Redpiso",
+    "phone": "+33910339316"
+  },
+  {
+    "geotag": "40.4182674,-3.7051206",
+    "price": 4250,
+    "size": "300m²",
+    "link": "https://www.idealista.com/en/inmueble/98663152/",
+    "title": "Commercial premises  in Sol, Madrid",
+    "agency": "ARTECASAS MADRID Y ALICANTE",
+    "phone": "+33919382413"
+  },
+  {
+    "geotag": "40.4225477,-3.6958716",
+    "price": 4500,
+    "size": "297m²",
+    "link": "https://www.idealista.com/en/inmueble/96384602/",
+    "title": "Commercial premises  in calle de Fernando VI, Chueca-Justicia, Madrid",
+    "agency": "",
+    "phone": "+33919384522"
+  },
+  {
+    "geotag": "40.4187618,-3.6997785",
+    "price": 6000,
+    "size": "200m²",
+    "link": "https://www.idealista.com/en/inmueble/97489840/",
+    "title": "Commercial premises  in calle de la Virgen de los Peligros, 7, Sol, Madrid",
+    "agency": "",
+    "phone": "+33667451966"
+  },
+  {
+    "geotag": "40.4234619,-3.6961302",
+    "price": 4500,
+    "size": "297m²",
+    "link": "https://www.idealista.com/en/inmueble/90913819/",
+    "title": "Commercial premises  in calle Fernando VI, Chueca-Justicia, Madrid",
+    "agency": "Retail Real Estate Services",
+    "phone": "+33911743641"
+  },
+  {
+    "geotag": "40.4201804,-3.6976622",
+    "price": 7000,
+    "size": "270m²",
+    "link": "https://www.idealista.com/en/inmueble/98668573/",
+    "title": "Commercial premises  in calle de las Infantas, 25, Chueca-Justicia, Madrid",
+    "agency": "",
+    "phone": "+33605819582"
+  },
+  {
+    "geotag": "40.4222479,-3.6952409",
+    "price": 7000,
+    "size": "272m²",
+    "link": "https://www.idealista.com/en/inmueble/88341041/",
+    "title": "Commercial premises  in calle del Barquillo, Chueca-Justicia, Madrid",
+    "agency": "Retail Real Estate Services",
+    "phone": "+33911743641"
+  },
+  {
+    "geotag": "40.4213445,-3.70073",
+    "price": 4000,
+    "size": "300m²",
+    "link": "https://www.idealista.com/en/inmueble/97426806/",
+    "title": "Commercial premises  in Chueca-Justicia, Madrid",
+    "agency": "GRUPO EXPANSIÓN INMOBILIARIA",
+    "phone": "+33919380269"
+  },
+  {
+    "geotag": "40.4223299,-3.6809642",
+    "price": 6000,
+    "size": "225m²",
+    "link": "https://www.idealista.com/en/inmueble/95747272/",
+    "title": "Commercial premises  in Goya, Madrid",
+    "agency": "",
+    "phone": "+33919383694"
+  },
+  {
+    "geotag": "40.4196075,-3.7059927",
+    "price": 4200,
+    "size": "216m²",
+    "link": "https://www.idealista.com/en/inmueble/98884356/",
+    "title": "Commercial premises  in Sol, Madrid",
+    "agency": "Inmobiliaria Grupo Portugal",
+    "phone": "+33919380485"
+  },
+  {
+    "geotag": "40.4200729,-3.7067405",
+    "price": 5000,
+    "size": "306m²",
+    "link": "https://www.idealista.com/en/inmueble/98224844/",
+    "title": "Commercial premises  in Palacio, Madrid",
+    "agency": "",
+    "phone": "+33919382014"
+  },
+  {
+    "geotag": "40.4227619,-3.6939302",
+    "price": 4500,
+    "size": "297m²",
+    "link": "https://www.idealista.com/en/inmueble/90921667/",
+    "title": "Commercial premises  in calle de Fernando VI, Chueca-Justicia, Madrid",
+    "agency": "GV | Real Estate",
+    "phone": "+33917365385"
+  },
+  {
+    "geotag": "40.4234217,-3.7049121",
+    "price": 3900,
+    "size": "260m²",
+    "link": "https://www.idealista.com/en/inmueble/88422866/",
+    "title": "Commercial premises  in calle de Silva, Malasaña-Universidad, Madrid",
+    "agency": "Retail Real Estate Services",
+    "phone": "+33911743641"
+  },
+  {
+    "geotag": "40.4217445,-3.69953",
+    "price": 4000,
+    "size": "300m²",
+    "link": "https://www.idealista.com/en/inmueble/91006956/",
+    "title": "Commercial premises  in calle Hortaleza, Chueca-Justicia, Madrid",
+    "agency": "Retail Real Estate Services",
+    "phone": "+33911743641"
+  },
+  {
+    "geotag": "40.4295991,-3.7086485",
+    "price": 5235,
+    "size": "380m²",
+    "link": "https://www.idealista.com/en/inmueble/89776584/",
+    "title": "Commercial premises  in calle de Alberto Aguilera, 11, Malasaña-Universidad, Madrid",
+    "agency": "Arty consultores",
+    "phone": "+33910149625"
+  },
+  {
+    "geotag": "40.4314667,-3.7077021",
+    "price": 2250,
+    "size": "220m²",
+    "link": "https://www.idealista.com/en/inmueble/29592646/",
+    "title": "Commercial premises  in calle Rodríguez San Pedro, 5, Arapiles, Madrid",
+    "agency": "España compañía nacional de seguros",
+    "phone": "+33610208283"
+  },
+  {
+    "geotag": "40.4314676,-3.7047082",
+    "price": 4500,
+    "size": "370m²",
+    "link": "https://www.idealista.com/en/inmueble/97083140/",
+    "title": "Commercial premises  in calle de Jerónimo de la Quintana, 10, Trafalgar, Madrid",
+    "agency": "Morgan alliance",
+    "phone": "+33919389558"
+  },
+  {
+    "geotag": "40.428032,-3.7094629",
+    "price": 5235,
+    "size": "382m²",
+    "link": "https://www.idealista.com/en/inmueble/96209879/",
+    "title": "Commercial premises  in calle de Alberto Aguilera, Malasaña-Universidad, Madrid",
+    "agency": "CARMENRIEZU Soluciones Inmobiliarias",
+    "phone": "+33919380755"
+  },
+  {
+    "geotag": "40.4291246,-3.7050184",
+    "price": 3000,
+    "size": "212m²",
+    "link": "https://www.idealista.com/en/inmueble/99220213/",
+    "title": "Commercial premises  in calle de Carranza, Trafalgar, Madrid",
+    "agency": "Retail Real Estate Services",
+    "phone": "+33911743641"
+  },
+  {
+    "geotag": "40.4313895,-3.6931708",
+    "price": 6000,
+    "size": "240m²",
+    "link": "https://www.idealista.com/en/inmueble/97872141/",
+    "title": "Commercial premises  in Almagro, Madrid",
+    "agency": "",
+    "phone": "+33919383694"
+  },
+  {
+    "geotag": "40.431,-3.69008",
+    "price": 5250,
+    "size": "399m²",
+    "link": "https://www.idealista.com/en/inmueble/97433957/",
+    "title": "Commercial premises  in calle Almagro, Almagro, Madrid",
+    "agency": "HousinGo",
+    "phone": "+33919382342"
+  },
+  {
+    "geotag": "40.4315996,-3.7018846",
+    "price": 1800,
+    "size": "200m²",
+    "link": "https://www.idealista.com/en/inmueble/94199210/",
+    "title": "Commercial premises  in calle de Alburquerque, Trafalgar, Madrid",
+    "agency": "Altor Asesores",
+    "phone": "+33919383295"
+  },
+  {
+    "geotag": "40.4282861,-3.7018497",
+    "price": 7500,
+    "size": "347m²",
+    "link": "https://www.idealista.com/en/inmueble/97743387/",
+    "title": "Commercial premises  in Fuencarral, 104, Chueca-Justicia, Madrid",
+    "agency": "Busquets Gálvez",
+    "phone": "+33915241099"
+  },
+  {
+    "geotag": "40.4283079,-3.7043296",
+    "price": 3000,
+    "size": "212m²",
+    "link": "https://www.idealista.com/en/inmueble/99307161/",
+    "title": "Commercial premises  in calle de Carranza, Trafalgar, Madrid",
+    "agency": "",
+    "phone": "+33919381699"
+  },
+  {
+    "geotag": "40.4285991,-3.7096485",
+    "price": 5235,
+    "size": "385m²",
+    "link": "https://www.idealista.com/en/inmueble/98964790/",
+    "title": "Commercial premises  in calle de Alberto Aguilera, Malasaña-Universidad, Madrid",
+    "agency": "Mundhogar",
+    "phone": "+33919385405"
+  },
+  {
+    "geotag": "40.4319829,-3.7119432",
+    "price": 4800,
+    "size": "350m²",
+    "link": "https://www.idealista.com/en/inmueble/96547911/",
+    "title": "Commercial premises  in calle de Guzmán el Bueno, Gaztambide, Madrid",
+    "agency": "",
+    "phone": "+33919380527"
+  },
+  {
+    "geotag": "40.4162622,-3.7098039",
+    "price": 3850,
+    "size": "250m²",
+    "link": "https://www.idealista.com/en/inmueble/83885896/",
+    "title": "Commercial premises  in calle Calle del Sacramento, Palacio, Madrid",
+    "agency": "",
+    "phone": "+33916397509"
+  },
+  {
+    "geotag": "40.4172732,-3.7058913",
+    "price": 6000,
+    "size": "235m²",
+    "link": "https://www.idealista.com/en/inmueble/90773123/",
+    "title": "Commercial premises  in calle Arenal - Plaza Celenque, 3, Sol, Madrid",
+    "agency": "López-brea servicios inmobiliarios",
+    "phone": "+33919384353"
+  },
+  {
+    "geotag": "40.4167103,-3.7075573",
+    "price": 6000,
+    "size": "350m²",
+    "link": "https://www.idealista.com/en/inmueble/87772113/",
+    "title": "Commercial premises  in calle de Bordadores, 5, Sol, Madrid",
+    "agency": "Feralba inmuebles",
+    "phone": "+33915478103"
+  },
+  {
+    "geotag": "40.4158661,-3.7027632",
+    "price": 4950,
+    "size": "250m²",
+    "link": "https://www.idealista.com/en/inmueble/97948834/",
+    "title": "Commercial premises  in Cruz, Huertas-Cortes, Madrid",
+    "agency": "Busquets Gálvez",
+    "phone": "+33915241099"
+  },
+  {
+    "geotag": "40.4160406,-3.6949254",
+    "price": 7000,
+    "size": "240m²",
+    "link": "https://www.idealista.com/en/inmueble/96657149/",
+    "title": "Commercial premises  in Prado, 8, Huertas-Cortes, Madrid",
+    "agency": "Morgan alliance",
+    "phone": "+33919389558"
+  },
+  {
+    "geotag": "40.4159767,-3.7003508",
+    "price": 7000,
+    "size": "365m²",
+    "link": "https://www.idealista.com/en/inmueble/96510187/",
+    "title": "Commercial premises  in calle de la Cruz, Sol, Madrid",
+    "agency": "",
+    "phone": "+33919383383"
+  },
+  {
+    "geotag": "40.4149137,-3.6959224",
+    "price": 5500,
+    "size": "400m²",
+    "link": "https://www.idealista.com/en/inmueble/94571225/",
+    "title": "Commercial premises  in Huertas-Cortes, Madrid",
+    "agency": "VOLPINI REAL ESTATE",
+    "phone": "+33919382640"
   }
 ]

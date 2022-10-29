@@ -1,3 +1,5 @@
+//https://www.idealista.com/en/areas/alquiler-locales/con-precio-hasta_8000,metros-cuadrados-mas-de_200,metros-cuadrados-menos-de_400,aireacondicionado/mapa-google?shape=%28%28wmxuFjgtUeh%40mx%40p%5B%7BfDzt%40ct%40hs%40bAcL%7EgApNjx%40xdAvIlS%60%5E%7DNdaBiiD%7CD%29%29
+
 for (const e of Array.from(document.querySelectorAll("[data-id]"))) {
   await new Promise((resolve) => {
     console.log("clicking on", e.dataset.id);

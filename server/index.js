@@ -19,21 +19,17 @@ app.get("/", (req, res) => {
           (listing) => listing.link === entry.link
         );
         if (findExist) {
-          console.log(
-            "entry already in DB, current DB count: ",
-            allListings.length
-          );
+          console.log("ENTRY ALREADY IN DB - DB COUNT: ", allListings.length);
           return;
         } else {
           //write to DB
           allListings.push(entry);
           const newList = JSON.stringify(allListings, null, 2);
-          console.log("current length of DB: ", allListings.length);
           fs.writeFile("listings-V2.JSON", newList, (err) => {
             if (err) {
               console.error(err);
             } else {
-              console.log("new entry added");
+              console.log("NEW ENTRY ADDED - DB COUNT: ", allListings.length);
             }
           });
         }
