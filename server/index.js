@@ -4,32 +4,48 @@ const app = express();
 
 app.get("/", (req, res) => {
   const { listing } = req.query;
-  const parsedListing = JSON.parse(listing);
-  let cleanGeo = parsedListing.geotag;
-  cleanGeo = cleanGeo.replace(/[_]/g, ",");
-  cleanGeo = cleanGeo.split("");
-  cleanGeo.splice(0, 1);
-  parsedListing.geotag = cleanGeo.join("");
-  parsedListing.size = parsedListing.size.replace(/\s|null/g, "");
-  // remove ,
-  parsedListing.price = parsedListing.price.replace(/\s|€|,/g, "");
-  parsedListing.price = parseInt(parsedListing.price);
-  // add area code
-  // parsedListing.number =
-  console.log(parsedListing);
+
+  const entry = cleanData(listing);
+
+  console.log(entry);
 
   try {
-    // const listingString = JSON.stringify(listing, null, 4);
-    // fs.writeFile("listings.JSON", listingString, (err) => {
+    // fs.readFile("listings.json", "utf8", function readFileCallback(err, data) {
     //   if (err) {
-    //     throw err;
+    //     console.log(err);
+    //   } else {
+    //     obj = JSON.parse(data); //now it an object
+    //     obj.push(entry); //add some data
+    //     json = JSON.stringify(obj); //convert it back to json
+    //     fs.writeFile("myjsonfile.json", json, "utf8", callback); // write it back
     //   }
-    //   console.log("JSON data is saved.");
     // });
   } catch (e) {
     console.error(e);
   }
   res.send();
 });
+
+const cleanData = (data) => {
+  const parsedListing = JSON.parse(data);
+  let cleanGeo = parsedListing.geotag;
+  cleanGeo = cleanGeo.replace(/[_]/g, ",");
+  cleanGeo = cleanGeo.split("");
+  cleanGeo.splice(0, 1);
+  parsedListing.geotag = cleanGeo.join("");
+  parsedListing.size = parsedListing.size.replace(/\s|null/g, "");
+  parsedListing.price = +parsedListing.price.replace(/\s|€|,/g, "");
+  // parsedListing.price = parseInt(parsedListing.price);
+  let cleanPhone = parsedListing.phone;
+  console.log(cleanPhone);
+  cleanPhone = cleanPhone.split("");
+  cleanPhone.unshift("+33");
+  console.log("after split", cleanPhone);
+  cleanPhone = cleanPhone.join("");
+  console.log("after join", cleanPhone);
+  parsedListing.phone = cleanPhone.replace(/\s/g, "");
+
+  return parsedListing;
+};
 
 app.listen(3000);
