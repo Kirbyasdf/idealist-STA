@@ -3,7 +3,7 @@ for (const e of Array.from(document.querySelectorAll("[data-id]"))) {
     console.log("clicking on", e.dataset.id);
     e.click();
     setTimeout(() => {
-      console.log("waited one sec");
+      console.log("waited 1.5 secs");
 
       // run js to extract
       const obj = {
@@ -16,6 +16,9 @@ for (const e of Array.from(document.querySelectorAll("[data-id]"))) {
         title: document.querySelector(
           ".rs-light-adcard_main-link span[role=heading]"
         ).innerText,
+        agency: document.querySelector(
+          "#react-map-item-delivery > div > article > div > a.rs-light-adcard_company-link"
+        ).title,
         phone: document.querySelector(
           ".rs-light-adcard_actions span.rs-light-adcard_actions_button"
         ).title,
@@ -23,6 +26,6 @@ for (const e of Array.from(document.querySelectorAll("[data-id]"))) {
       fetch("http://localhost:3000/?listing=" + JSON.stringify(obj));
       console.log("new data", obj);
       resolve(); // done move to the next one
-    }, 1000);
+    }, 1500);
   });
 }

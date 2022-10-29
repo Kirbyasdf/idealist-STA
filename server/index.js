@@ -12,8 +12,8 @@ app.get("/", (req, res) => {
   parsedListing.geotag = cleanGeo.join("");
   parsedListing.size = parsedListing.size.replace(/\s|null/g, "");
   // remove ,
-  //   parsedListing.price = parsedListing.price.replace(/\s|€/g, "");
-  //   parsedListing.price = parseInt(parsedListing.price);
+  parsedListing.price = parsedListing.price.replace(/\s|€|,/g, "");
+  parsedListing.price = parseInt(parsedListing.price);
   // add area code
   // parsedListing.number =
   console.log(parsedListing);
